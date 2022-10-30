@@ -1,0 +1,10 @@
+BLOBS= TIPO DO OBJETO, tamanho string, barra contraria com 0, e o conteudo do
+arquivo.
+contem metadados do git.
+
+TREES= Contem metadado, o sha e o conteúdo, pode apontar pra outra árvore e
+podem apontar para blobs.
+
+COMMITS= objetos que vão dar sentido a alteração, vai juntar tudo, vai dar
+explicações sobre a alteração realizadas, possuem encriptação, comite 
+aponta pra uma arvore 
